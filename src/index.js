@@ -12,9 +12,9 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
-
+import Login from './pages/Login';
 export default function App(){
   return (
-    <Text>Ola</Text>
+    <Login/>
   );
 };
